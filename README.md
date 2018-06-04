@@ -13,29 +13,39 @@ Lehrveranstaltungs-Repository für die Lehrveranstaltung *Datengestützte Analys
 
 * auf [GitHub](https://github.com) registrieren
 * Text-Editor wie [Notepad++](https://notepad-plus-plus.org/) oder [Atom Editor](https://atom.io/) installiert.
-* [Libre Office](https://de.libreoffice.org/) installiert.
+* [Libre Office](https://de.libreoffice.org/) installieren.
+* Markdown Editor installieren: [Remarkable](https://remarkableapp.github.io/) (nur Win und Linux).
 * Markdown einarbeiten: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/), [Writing on GiHub](https://help.github.com/categories/writing-on-github/)
 
-## VORLESUNGEN
+## VORLESUNG
 
 | Inhalt        | Folien | Daten |
 |---------------|--------|--------|
 | Einleitung LV | [Einleitung](vorlesung/slides_1-einleitung.pdf) |  |
 | Theoretische Grundlagen für das Arbeiten mit Daten | [Daten](vorlesung/slides_2-daten.pdf) |  |
-| Die vorbereitenden Datenverarbeitungs-Schritte in einer Datenanalyse. | [Daten nutzen](vorlesung/slides_3-daten-nutzen.pdf) | [Metadaten Umfrage Herrengasse](data/theorie/metadata_umfrage-herrengasse.json), [Metadaten Wetterstation](data/theorie/metdata_wetterstation.json) |
+| Die vorbereitenden Datenverarbeitungs-Schritte in einer Datenanalyse. | [Daten nutzen](vorlesung/slides_3-daten-nutzen.pdf) | [Metadaten Umfrage Herrengasse](data/theorie/metadata_umfrage-herrengasse.json), [Metadaten Wetterstation](data/theorie/metadata_wetterstation.json) |
 | Analyse: Verteilungen, Metriken und Korrelation. | [Daten auswerten](vorlesung/slides_4-daten-auswerten.pdf) | [Beispiele Verteilungen](data/theorie/statistik_beispiele.ods), [Beispiele Verteilungen für BoxplotR](data/theorie/distributions.csv), [Beispiele Korrelationen](data/theorie/korellation_beispiele.ods)|
 
 ## ÜBUNGEN
 
-### Projekt: Gruppe A ###
+**[Vorbereitung](uebung/UE_0-vorbereitung.md)**
 
 | Termine | Inhalt | Aufgabe | Folien |
 |---------|--------|---------|--------|
 | 22.5.  <br> DJ: 13:00 - 15:15 <br> OK: 15:30 - 17:45 | Datenrecherche + Metadaten | [Aufgabe](uebung/UE_1-daten.md) | [Folien](uebung/slides_aufgabe-1.pdf) |
 | 23.5.<br>OK: 9:45-12:00<br>DJ: 13:00 - 15:15 | Peer Review | [Aufgabe](uebung/UE_2-review.md) | [Folien](uebung/slides_aufgabe-2.pdf) |
-| OK: 29.5. 15:30 - 17:45<br>DJ: 30.5. 8:45 - 12:00 | Daten nutzen |  |  |
-| : 4.6. 13:00 - 16:15<br>: 5.6. 8:30 - 10:45 | Daten auswerten |  |  |
-| 13.6.<br>OK: 13:00 - 14:30<br>DJ: 14:45 - 16:15 | Präsentation |  |  |
+| OK: 29.5. 15:30 - 17:45<br>DJ: 4.6. 13:00 - 16:15 | Verteilungen | [Aufgabe](uebung/UE_3-verteilungen.md) | [Folien](uebung/slides_aufgabe-3.pdf) |
+| OK: 30.5. 8:45 - 12:00<br>DJ: 5.6. 8:30 - 10:45 | Korrelation | [Aufgabe](uebung/UE_4-korrelation.md) | [Folien](uebung/slides_aufgabe-4.pdf) |
+| 13.6.<br>OK: 13:00 - 14:30<br>DJ: 14:45 - 16:15 | Präsentation | [Aufgabe](uebung/UE_5-praesentation.md) | n/a |
+
+## TIMELINE
+
+* **8. - 17. Mai.**: Theorie
+* **17. Mai.**: Test
+*  **22. Mai - 5. Juni**: Übungen
+* **9. Juni**: Abgabetermin der Aufgaben 3 & 4 - Erster Draft (für Feedback)
+* **13. Juni**: Präsentation & Abgabetermin Präsentation
+* **17. Juni**: Abgabetermin aller Aufgaben - Finale Version (wird beurteilt)
 
 ## BEURTEILUNG
 
@@ -59,7 +69,8 @@ Lehrveranstaltungs-Repository für die Lehrveranstaltung *Datengestützte Analys
 
 * Gewichtung: 20%
 * Wann: 13. Juni 2018
-* Dauer: je 10min
+
+Näheres siehe [Aufgabe](uebung/UE_5-praesentation.md).
 
 ### Projektabgabe
 
